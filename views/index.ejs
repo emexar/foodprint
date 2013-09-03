@@ -108,7 +108,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-43030074-1']);
+  _gaq.push(['_setAccount', 'UA-43030074-2']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -136,7 +136,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="/about">About</a></li>
-              <li><a href="/orders">BookedOrders</a></li>
+              <li><a href="/orders">DonationList</a></li>
               <li><a href="mailto:mxr@cloudgro.com">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -152,14 +152,14 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Fabric Lampshade</h1>
+          <h1>Foodprint</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Print Your Own Textile Lampshade</p>
+          <p class="lead">3D Print Your Snack. It always tastes the same even on the moon,<br>as long as you bring our 3D Snack Printer there.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
@@ -167,7 +167,7 @@
             <!--
             <img class="img-polaroid" src="http://placehold.it/480x300">
             -->
-            <img class="img-polaroid" src="http://i.imgur.com/NLaSC5t.jpg">
+            <img class="img-polaroid" src="http://i.imgur.com/hLyTQ9l.gif">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -190,12 +190,12 @@
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3><%= bc_sum %></h3> <p>of $85,000</p>
+                  <h3><%= bc_sum %></h3> <p>prototyping</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3 id="countdown">60</h3> <p>days left</p>
+                <h3 id="countdown"></h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -212,7 +212,7 @@
           </div>
           <div class="row-fluid">
           <div class="span6 offset3 order">
-            <a class="coinbase-button" data-code="1a7e57317406a4bb803c5b76c980ca1e" data-button-style="custom_large" data-button-text="Preorder with Bitcoins" href="https://coinbase.com/checkouts/1a7e57317406a4bb803c5b76c980ca1e">Preorder with Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+            <a class="coinbase-button" data-code="0112bf950fc8fc4121a13a01853a0ac2" data-button-style="custom_large" data-button-text="Donate Bitcoins" href="https://coinbase.com/checkouts/0112bf950fc8fc4121a13a01853a0ac2">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
       </div>
           </div>
           <div class="row-fluid">
@@ -240,24 +240,34 @@
       <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
+		<!--
         <div class="span5 offset1 asset">
           <img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/ZjYNoRD.gif">
         </div>
-        <div class="span5 copy">
-          <p>Match the mood of your room with your own designed lampshade. Or, alternatively, select one from our community designers. We get together, share our design, select the very best one, or even sell your lampshade design in our ecommerce platform we create.</p>
-          <p>Once you have selected your own design or a ready made one, we'll print it onto fabric that later be converted to georgeous lampshades complete with the lamp kit, wireframe and cable. The kit will be flat packed to minimize shipping cost and easy handling.</p>
-          <p>Chip in your bitcoins now and we'll convert them to sales credit once we commercially started. And, the more you put the money in, the more voucher amount you will get as the conversion gets better. So, basically we will borrow your money and return it back to you as sales voucher upon commercial launch. After all, it is your money anyway.</p>
+		-->
+        <div class="span5 offset1 copy">
+          <p>There are only 5 tastes known by human. They are salt, sweet, sour, bitter and umami. The composition of those 5 tastes determines whether food is delicious or not. So, if we can arrange those tastes in precised droplets like what printer does with inkjet, we might have successfully digitized the food.</p>
+          <p>The Foodprint is our 3D Snack Printer and it does the same way as usual 3D Printer but instead of a droplet of plastic it uses a droplet of pre-packed tastes. Our 3D Snack Printer will arrange the droplets according to Computer Numerical Control (CNC) code known as gcode. The dispenser moves in XYZ axis while extruding a certain amount of droplet along the way.</p>
+          <p>The other two factors contributing to deliciousness are aroma and texture. </p>
+		  <p>There are unlimited number of aroma, but for the first round we have selected cheese, garlic and smoked. The aroma will come in pressurized gas container for hygienic reasons.</p>
+		</div>
+		<div class="span5 asset">
+		  <p>The textures are basically edible compounds that you can play with your digital recipe. They are light (creamy/oily), medium and hard. They are basically the body of the droplets that are going to be laid onto an edible snack base. The five tastes in micronized form will be infused upon the exit of the extruder. You could use cardboard for your draft print and it might taste like a good pizza slice, but a number of snack base will be provided if the initiative successful. </p>
+		  <p>And, unlike its 3D Printer sibling, the foodprint doesn't take so many hours to print your snack because the droplet does not need to be very precised. Just about the average size of taste buds is enough.</p>
+		  <p>So, donate now or help spread the idea through twitter so that in the future you can print your own tapas or snack anywhere in the world with the same deliciousness. Discover your own delicious recipe, open source it to public then you might not need any chef again.</p>
         </div>
       </div>
 
-      <div class="row-fluid section2">
+      	<!--div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>We are committed to creating high quality fabric lampshades. And, we've been working with our design and manufacturing partners for the past few weeks, perfecting the product. The wireframe is made of ABS plastics. This is high quality injected plastic part coming out from our precision mould. We are also working hard so that your lampshades kit to be affordable for all.</p>
         </div>
-        <div class="span5 asset">
+		-->
+        <!--div class="span5 asset"-->
           <!--img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300"-->
-          <img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/jLTknTD.gif">
-        </div>
+          <!--img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/jLTknTD.gif"-->
+        <!--/div-->
+		
       </div>
 
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
@@ -272,15 +282,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    How will the fund be spent? 
+                    What is gcode? 
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    The majority will go towards purchasing the textile printer. Currently, textile printer is relatively <a href="http://goodandbadprinters.blogspot.com/2011/10/if-you-think-to-invest-textile-printer.html" target="_blank">expensive</a>. One way to lower the price of the textile printer is to generate as much demand as possible. 
-                    Another portion of the fund will be used for developing moulds for wireframe, lamp kit and other plastic parts. On the software side, the fund will be used mainly for the development of the e-commerce website
-                    The rest will be used to pay operating costs for the first year of operation.
-                    If we exceed our goal, any additional funds will go preferentially towards speeding up development so that we can launch sooner.
+                    <a href="http://en.wikipedia.org/wiki/G-code" target="_blank">G-code</a> is the common name for the most widely used numerical control (NC) programming language, which has many implementations. Used mainly in automation, it is part of computer-aided engineering. G-code is sometimes called G programming language.
                   </div>
                 </div>
               </div>
@@ -289,12 +296,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What is Lampshade Credit Conversion?
+                    Why pressurized pack?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Your donation will be converted to credit that can be used later as sales voucher once our ecommerce is ready. This scheme gives flexibility for us to receive any amount of money. Bigger amount will be converted to bigger sales voucher as the conversion rate is not linear.
+                    For the benefit of preserving food, instant transmission of fluids and solids, positive pressure so that preventing bacterias to enter
                   </div>
                 </div>
               </div>
@@ -303,83 +310,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseThree">
-                    Why fabric?
+                    How do you clean the unit?
                   </a>
                 </div>
                 <div id="collapseThree" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    We think fabric is one of the most flexible material. The material creates warm feeling. It is changeable according to the mood of the room. With fabric, we could also flat packed all the items for easier delivery as well as saving the cost.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseFour">
-                    Is the lampshade washable/changeable?
-                  </a>
-                </div>
-                <div id="collapseFour" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Yes. It is changeable for the same type of wireframe.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseFive">
-                    Can the lampshade be used for standing lamp?
-                  </a>
-                </div>
-                <div id="collapseFive" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Yes. The lampshade will come with E27 hang kit + wireframe. For standing lamp you will just use the wireframe. You could store the E27 hang kit for later use.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseSix">
-                    What kind of lamp is suitable for the lampshade?
-                  </a>
-                </div>
-                <div id="collapseSix" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Any kind of lamp can be used as long as under 60W.  With current energy saving lamps, the rated wattage should be more than enough for a typical room.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseSeven">
-                    Is there any alternative payment other than bitcoins?
-                  </a>
-                </div>
-                <div id="collapseSeven" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    If there is enough interest/traction, we will open another payment gateway, possibly paypal and credit cards. You could help raise the interest level by spreading the words using twitter, facebook, and other social media. We will monitor this periodically.
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseEight">
-                    What next?
-                  </a>
-                </div>
-                <div id="collapseEight" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Our focus will be more on architecture/interior design. So expect to have more things on fabrics, e.g wall paper/fabric, drapes, bed coverings, etc. customized to your design.
+                    We think of self cleaning unit will be included making use of pressure and RO water.
                   </div>
                 </div>
               </div>
@@ -407,7 +343,7 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-43030074-1', 'herokuapp.com');
+  ga('create', 'UA-43030074-2', 'herokuapp.com');
   ga('send', 'pageview');
 </script>
 <script type ="text/javascript">
